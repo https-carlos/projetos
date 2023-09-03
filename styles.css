@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto 500px 500px auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 8px;
+}
+
+.project p {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.project {
+    background-color: #2A2A2A;
+}
+
+.fundo {
+    min-height: 120vh;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #0E0E0E;
+}
+
+.fundo.fora {
+    background-color: #1B1B1B;
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+}
+
+.title {
+    color: rgb(252, 115, 24);
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(252, 115, 24);
+    background-color: #2A2A2A;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.name p {
+    margin-left: 40px;
+}
+
+.project.one {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.project.two {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.project.trhee {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.project.four {
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+
+.project.five {
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+
+.project.six {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.project.seven {
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+.project.eight {
+    grid-row-start: 5;
+    grid-column-start: 4;
+}
+
+.project.nine {
+    grid-row-start: 6;
+    grid-column-start: 3;
+}
+
+.project.ten {
+    grid-row-start: 6;
+    grid-column-start: 4;
+}
+
+.project.eleven {
+    grid-row-start: 7;
+    grid-column-start: 3;
+}
