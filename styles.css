@@ -26,7 +26,7 @@ body {
 .fundo {
     min-height: 120vh;
     grid-row-start: 1;
-    grid-row-end: 9;
+    grid-row-end: 12;
     grid-column-start: 1;
     grid-column-end: 7;
     background-color: #0E0E0E;
@@ -131,5 +131,35 @@ body {
 
 .project.fourteen {
     grid-row-start: 8;
+    grid-column-start: 4;
+}
+
+.project.fifteen{
+    grid-row-start: 9;
+    grid-column-start: 3;
+}
+
+.project.sixteen{
+    grid-row-start: 9;
+    grid-column-start: 4;
+}
+
+.project.seventeen{
+    grid-row-start: 10;
+    grid-column-start: 3;
+}
+
+.project.eighteen{
+    grid-row-start: 10;
+    grid-column-start: 4;
+}
+
+.project.nineteen{
+    grid-row-start: 11;
+    grid-column-start: 3;
+}
+
+.project.twenty{
+    grid-row-start: 11;
     grid-column-start: 4;
 }
