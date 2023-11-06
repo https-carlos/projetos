@@ -26,7 +26,7 @@ body {
 .fundo {
     min-height: 120vh;
     grid-row-start: 1;
-    grid-row-end: 12;
+    grid-row-end: 14;
     grid-column-start: 1;
     grid-column-end: 7;
     background-color: #0E0E0E;
@@ -162,4 +162,10 @@ body {
 .project.twenty{
     grid-row-start: 11;
     grid-column-start: 4;
+}
+
+.project.twenty-one{
+    grid-row-start: 12;
+    grid-column-start: 3;
+
 }
