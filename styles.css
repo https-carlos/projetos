@@ -169,3 +169,8 @@ body {
     grid-column-start: 3;
 
 }
+
+.project.twenty-two{
+    grid-row-start: 12;
+    grid-column-start: 4;
+}
