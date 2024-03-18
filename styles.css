@@ -174,3 +174,8 @@ body {
     grid-row-start: 12;
     grid-column-start: 4;
 }
+
+.project.twenty-three{
+    grid-row-start: 13;
+    grid-column-start: 3;
+}
